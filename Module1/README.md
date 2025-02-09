@@ -128,7 +128,9 @@ This module introduces the fundamental workflow of creating maps using QGIS. You
 🎯 **By completing this module, you will have learned the core functions of QGIS, including data import, querying, symbology, labeling, and print layout design.**
 
 ### **Final Output**
-![Final Map Output](large_earthquakes.png)
+![Final Map Output](maps/deadliest_earthquakes.png)
+
+
 
 ---
 
