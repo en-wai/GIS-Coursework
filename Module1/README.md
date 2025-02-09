@@ -127,6 +127,12 @@ This module introduces the fundamental workflow of creating maps using QGIS. You
 
 🎯 **By completing this module, you will have learned the core functions of QGIS, including data import, querying, symbology, labeling, and print layout design.**
 
-Raw Notes
+### **Final Output**
+![Final Map Output](large_earthquakes.png)
 
-In module 1, we are making a global map. The default CRS 4326 is lat/lon and is not well suited for visaulisation. It is a good format for projection and to store data but when displaying data,all the continent will be the worng size and the distances are incorrect. For global maps it is best to choose an equal are projection as it preserves area relative to the continent. A mordern projection for preserving are in an Equal Earth Projection (it adapted from the Robinson Projection which was used by National Geographic). Anytime you want to create a global map, go to [Equal Earth](https://equal-earth.com/)
+---
+
+## **Raw Notes**
+In Module 1, we are making a global map. The default CRS **EPSG:4326** uses latitude/longitude coordinates, which are **not ideal for visualization**. While it is good for projection and data storage, it **distorts the sizes of continents and affects distance accuracy** when displayed. 
+
+For global maps, it is best to use an **equal-area projection**, as it preserves relative areas of continents. A modern projection designed for this purpose is the **Equal Earth Projection**, which is adapted from the **Robinson Projection** (previously used by National Geographic). **Anytime you want to create a global map, visit [Equal Earth](https://equal-earth.com/).**
