@@ -126,3 +126,7 @@ This module introduces the fundamental workflow of creating maps using QGIS. You
 4. **Export the print layout as a PDF**.  
 
 🎯 **By completing this module, you will have learned the core functions of QGIS, including data import, querying, symbology, labeling, and print layout design.**
+
+Raw Notes
+
+In module 1, we are making a global map. The default CRS 4326 is lat/lon and is not well suited for visaulisation. It is a good format for projection and to store data but when displaying data,all the continent will be the worng size and the distances are incorrect. For global maps it is best to choose an equal are projection as it preserves area relative to the continent. A mordern projection for preserving are in an Equal Earth Projection (it adapted from the Robinson Projection which was used by National Geographic). Anytime you want to create a global map, go to [Equal Earth](https://equal-earth.com/)
